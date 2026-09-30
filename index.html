@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">Shree Krishna Foundation | Social Worker</title>
+    <meta name="description" content="Dedicated to serving the community and uplifting lives. Join us in our mission to make a difference.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="titleorlogo.jpeg" alt="Logo" class="logo-img">
+                <span class="logo-text" data-i18n="logoText">Shree Krishna Foundation</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="navHome">Home</a></li>
+                <li><a href="#about" data-i18n="navAbout">About</a></li>
+                <li><a href="#mission" data-i18n="navMission">Our Mission</a></li>
+                <li><a href="#impact" data-i18n="navImpact">Our Impact</a></li>
+                <li><a href="#work" data-i18n="navWork">Video</a></li>
+                <li><a href="#donate" class="btn-primary-outline" data-i18n="navSupport">Support Us</a></li>
+                
+                <!-- Language Switcher -->
+                <li class="lang-switcher-container">
+                    <select id="lang-switcher" class="lang-switcher">
+                        <option value="en">English</option>
+                        <option value="hi">हिंदी (Hindi)</option>
+                        <option value="mr">मराठी (Marathi)</option>
+                    </select>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="heroTitle">सेवा परमो धर्मः</h1>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">Service to humanity is service to God. Join our journey to uplift, empower, and bring hope to the community.</p>
+            <div class="hero-actions">
+                <a href="#impact" class="btn-primary" data-i18n="heroBtnWork">See Our Work</a>
+                <a href="#donate" class="btn-secondary" data-i18n="heroBtnDonate">Make a Donation</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="aboutTitle">About Shree Krishna Foundation</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content" style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 1.15rem; line-height: 1.8; color: #444;">
+                <p><strong data-i18n="aboutP1">Dedicated to serving society with kindness, compassion, and responsibility.</strong></p>
+                <br>
+                <p data-i18n="aboutP2">We believe that every small step towards helping others can create a big change in the community. Our mission is to support people, spread awareness, encourage unity, and work for the betterment of society.</p>
+                <br>
+                <p style="font-size: 1.3rem; font-weight: bold; color: var(--primary-color);" data-i18n="aboutP3">“Service to humanity is the greatest service.” 🙏</p>
+                <br>
+                <p data-i18n="aboutP4">Together, we can build a stronger, happier, and better society for everyone.</p>
+                <p><strong data-i18n="aboutP5">Serving People • Helping Society • Creating Positive Change ❤️</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="section mission-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="missionTitle">Our Mission</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="mission-content">
+                <p class="lead-text" data-i18n="missionLeadText">We are committed to building a stronger, more equitable society where every individual has access to basic needs, education, and opportunities to thrive.</p>
+                <div class="mission-cards">
+                    <div class="card">
+                        <div class="card-icon">📚</div>
+                        <h3 data-i18n="missionCard1Title">Education</h3>
+                        <p data-i18n="missionCard1Desc">Empowering the next generation through accessible learning and resources.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🏥</div>
+                        <h3 data-i18n="missionCard2Title">Health & Care</h3>
+                        <p data-i18n="missionCard2Desc">Providing essential healthcare and support to the underprivileged.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🤝</div>
+                        <h3 data-i18n="missionCard3Title">Community</h3>
+                        <p data-i18n="missionCard3Desc">Fostering unity and sustainable development at the grassroots level.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="section impact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="impactTitle">Our Impact</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-i18n="impactSubtitle">A glimpse into our groundwork and community efforts.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Helping1.jpeg" alt="Helping the community 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="Helping2.jpeg" alt="Helping the community 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="helping3.jpeg" alt="Helping the community 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="helpers.jpeg" alt="Our volunteers">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section work-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="workTitle">Our Work in Action</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="video-container" style="margin-bottom: 2rem;">
+                <video controls preload="metadata" poster="titleorlogo.jpeg" class="work-video">
+                    <source src="VIDEO.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-container">
+                <video controls preload="metadata" poster="titleorlogo.jpeg" class="work-video">
+                    <source src="VIDEO2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="section donate-section">
+        <div class="container">
+            <div class="donate-wrapper">
+                <div class="donate-text">
+                    <h2 class="section-title" data-i18n="donateTitle">Support the Cause</h2>
+                    <div class="title-underline left"></div>
+                    <p class="lead-text" data-i18n="donateLeadText">Your contribution can change a life. Every small donation helps us reach more people in need and continue our vital social work.</p>
+                    <ul class="donate-benefits">
+                        <li data-i18n="donateBenefit1">✓ 100% Transparency</li>
+                        <li data-i18n="donateBenefit2">✓ Direct Impact on Lives</li>
+                        <li data-i18n="donateBenefit3">✓ Community Upliftment</li>
+                    </ul>
+                </div>
+                <div class="donate-image-container">
+                    <div class="donate-method-toggle">
+                        <button id="btn-qr" class="method-btn active" data-i18n="donateMethodQR">QR Code</button>
+                        <button id="btn-bank" class="method-btn" data-i18n="donateMethodBank">Bank Transfer</button>
+                    </div>
+                    <div class="glass-card" id="donation-card-content">
+                        <!-- QR Code View -->
+                        <div id="qr-view">
+                            <button id="view-qr-btn" class="btn-primary" style="margin-bottom: 1.5rem;" data-i18n="viewQrBtn">View QR Code</button>
+                            <p id="donation-instruction-text" data-i18n="donateInstructionQR">Click the button above to view and scan the QR code to make a secure donation.</p>
+                        </div>
+                        
+                        <!-- Bank Transfer View -->
+                        <div id="bank-view" style="display: none; text-align: left; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                            <h3 style="color: #fff; margin-bottom: 1.5rem; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 0.5rem;" data-i18n="bankDetailsTitle">Bank Details</h3>
+                            <p style="margin-bottom: 0.5rem; color: #fff;"><strong data-i18n="bankNameLabel">NAME:</strong> SHRI KRISHNA FOUNDATION</p>
+                            <p style="margin-bottom: 0.5rem; color: #fff;"><strong data-i18n="bankBankLabel">BANK:</strong> BASSEIN CATHOLIC CO OPERATIVE BANK LTD</p>
+                            <p style="margin-bottom: 0.5rem; color: #fff;"><strong data-i18n="bankBranchLabel">BRANCH:</strong> NALASOPARA East</p>
+                            <p style="margin-bottom: 0.5rem; color: #fff;"><strong data-i18n="bankIfscLabel">IFSC CODE:</strong> BACB000017</p>
+                            <p style="color: #fff;"><strong data-i18n="bankAcLabel">A/C No:</strong> 501000000623831</p>
+                        </div>
+                        
+                        <p class="thank-you" data-i18n="donateThankYou">Thank you for your generosity! 🙏</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR Modal -->
+    <div id="qr-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 style="margin-bottom: 1rem; color: var(--secondary-color);" data-i18n="modalQrTitle">Scan QR to Donate</h3>
+            <img src="DONATION.jpeg" alt="QR Code" class="modal-qr-img">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="titleorlogo.jpeg" alt="Logo" class="footer-logo">
+                    <h3 data-i18n="footerBrandName">Shree Krishna Foundation</h3>
+                    <p data-i18n="footerBrandDesc">Dedicated to community service and social upliftment.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footerQuickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="navHome">Home</a></li>
+                        <li><a href="#mission" data-i18n="navMission">Mission</a></li>
+                        <li><a href="#impact" data-i18n="navImpact">Impact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footerContactUs">Contact Us</h4>
+                    <p style="margin-bottom: 1rem; line-height: 1.5;"><strong data-i18n="addressLabel">Address:</strong> <span data-i18n="addressText">S.R.No.131/1, Road No. 5, Shiv Mandir, Bilal Pada, Dongar Pada, Santosh Bhuvan, Nalasopara (East), Ta. Vasai, Dist. Palghar - 401209</span></p>
+                    <p><strong>Phone:</strong> <a href="tel:+919503495085">+91 9503495085</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:sherayadav111@gmail.com">sherayadav111@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shree Krishna Foundation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
